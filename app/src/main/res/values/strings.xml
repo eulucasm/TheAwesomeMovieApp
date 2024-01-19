@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TheAwesomeMovieApp</string>
+    <string name="share_button_title">Compartilhar</string>
+    <string name="imagem_movie">imagem hq</string>
+    <string name="descricao_detalhe">descricao detalhe</string>
+    <string name="new_story_title">Nova história</string>
+    <string name="error_msg">Ops, aconteceu um erro. Tente novamente mais tarde.</string>
+    <string name="movies">Movies</string>
+</resources>
