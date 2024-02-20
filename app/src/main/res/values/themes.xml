@@ -10,5 +10,9 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
     </style>
 
+    <style name="button" parent="Widget.Material3.Button.ElevatedButton">
+        <item name="android:background">@color/purple_500</item>
+    </style>
+
     <style name="Theme.TheAwesomeMovieApp" parent="Base.Theme.TheAwesomeMovieApp" />
 </resources>

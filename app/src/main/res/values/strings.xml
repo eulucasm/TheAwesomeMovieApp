@@ -6,4 +6,9 @@
     <string name="new_story_title">Nova história</string>
     <string name="error_msg">Ops, aconteceu um erro. Tente novamente mais tarde.</string>
     <string name="movies">Movies</string>
+    <string name="title_search">Pesquisar</string>
+    <string name="label_share">Share</string>
+    <string name="label_detail">Details</string>
+    <string name="label_rating">Rating:</string>
+    <string name="label_posters">Posters</string>
 </resources>

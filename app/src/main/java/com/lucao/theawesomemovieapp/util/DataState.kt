@@ -1,4 +1,4 @@
-package com.lucao.theawesomemovieapp
+package com.lucao.theawesomemovieapp.util
 
 enum class DataState {
     Error, Loading, Success

@@ -6,7 +6,7 @@
     <data>
         <variable
             name="movieItem"
-            type="com.lucao.theawesomemovieapp.placeholder.PlaceholderContent.PlaceholderItem" />
+            type="com.lucao.theawesomemovieapp.domain.model.Movie" />
     </data>
 
     <LinearLayout
@@ -22,7 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <ImageView
+                <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/imageView"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
@@ -51,7 +51,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/text_margin"
-                    android:text="@{movieItem.content}"
+                    android:text="@{movieItem.description}"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     app:layout_constraintBottom_toTopOf="@id/button"
                     app:layout_constraintEnd_toEndOf="parent"
